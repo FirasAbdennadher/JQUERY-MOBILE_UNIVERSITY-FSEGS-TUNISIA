@@ -1,0 +1,245 @@
+Manifest-Version: 1.0
+Built-By: Generated-by-ADT
+Created-By: Android Gradle 3.0.0
+
+Name: AndroidManifest.xml
+SHA1-Digest: CmZr6UoaO4b35+ShKid3KWTbp0k=
+
+Name: assets/www/cordova-js-src/android/nativeapiprovider.js
+SHA1-Digest: FVwW8q5pXNyqdiSUoAgfev5NTHs=
+
+Name: assets/www/cordova-js-src/android/promptbasednativeapi.js
+SHA1-Digest: WY63KRIwUfBJT7ADJajHaAGlUMA=
+
+Name: assets/www/cordova-js-src/exec.js
+SHA1-Digest: A7BC4etS9bFIzKKjf8xg4jH3oqM=
+
+Name: assets/www/cordova-js-src/platform.js
+SHA1-Digest: /mJ5H2qTR9Bi2LjUspEVgxlBB+g=
+
+Name: assets/www/cordova-js-src/plugin/android/app.js
+SHA1-Digest: f7p1rHw6kBqunadJYz5vUi7ZElM=
+
+Name: assets/www/cordova.js
+SHA1-Digest: wSC0WYGKljQORldXOiOIyvuEfmU=
+
+Name: assets/www/cordova_plugins.js
+SHA1-Digest: OAlUAD7VCYnq1O+03/26f71+8pE=
+
+Name: assets/www/css/bootstrap.min.css
+SHA1-Digest: IkyfmtEbSVNYqmHb1T6DjpthAVs=
+
+Name: assets/www/css/style.css
+SHA1-Digest: toHNjAypO3Q+XPgFs+Jg9If1B+g=
+
+Name: assets/www/images/01354891042_08_37_22.png
+SHA1-Digest: LQ8hr8fuXfxCPsWzGWQHChTxSLE=
+
+Name: assets/www/images/0FwgLGi25wG.png
+SHA1-Digest: jhW3hb5YYfi5fTUOraQIsccFzao=
+
+Name: assets/www/images/1.png
+SHA1-Digest: 3cNdU2iN1tc0IW2pOfT4ZLONSPg=
+
+Name: assets/www/images/14838-200.png
+SHA1-Digest: 9X7QTQMMSXW5ekN4jFZTQslRg0A=
+
+Name: assets/www/images/2.png
+SHA1-Digest: yQci94utV/QDpVyMnc2nfXubpSY=
+
+Name: assets/www/images/21354728181_11_23_01.png
+SHA1-Digest: OPLgneifCSjoKYe6Pzhna8WvQ9Y=
+
+Name: assets/www/images/3.png
+SHA1-Digest: VV35FINDGxWeT80feS4GYuoy2mY=
+
+Name: assets/www/images/34400.png
+SHA1-Digest: uXH0yA19Ig2eBeLzxP1HLesIUo0=
+
+Name: assets/www/images/41354728094_11_21_34.png
+SHA1-Digest: fP8+EtcuBMinytco1g6OlGvR+Ms=
+
+Name: assets/www/images/41354728142_11_22_22.png
+SHA1-Digest: A07wlF/64y+IwKIdK1KKeQvIJ38=
+
+Name: assets/www/images/51354728074_11_21_14.png
+SHA1-Digest: 77/tNSD8QMB8vLdNzTp9hPff114=
+
+Name: assets/www/images/Flowchart_5733.png
+SHA1-Digest: 2JSNGwT4uiDOeuLoPyDPDigiYAQ=
+
+Name: assets/www/images/Icons8-Windows-8-Mobile-Phone.ico
+SHA1-Digest: vd2F58sHVQqcUDRxWwHGYdwMUhg=
+
+Name: assets/www/images/Simpleicons_Business_ascendant-bars-graphic.sv
+ g.png
+SHA1-Digest: 5+TStLqBwuHw5MT1EmdaxJdS+Js=
+
+Name: assets/www/images/abdelfatteh-ghorbel_th.jpg
+SHA1-Digest: VBidkKm5kVBVagXCYkOQouNC9AY=
+
+Name: assets/www/images/abdellatif-khemakhem_th.jpg
+SHA1-Digest: f6e6XMH5cgw/sFlWj7yzqrtqDcY=
+
+Name: assets/www/images/about-us-male (1).png
+SHA1-Digest: +RohtRNkUpPWgKGAaXzt6Q1Leo4=
+
+Name: assets/www/images/about-us-male.png
+SHA1-Digest: PwsK+YLz4E8lKA/g8W2pTFssag0=
+
+Name: assets/www/images/alaune.png
+SHA1-Digest: HhV1+LKYEvviEYtIT+wui8lUqbg=
+
+Name: assets/www/images/ali-chkir_th.jpg
+SHA1-Digest: ioyk/9vG+4r4C9kr+oOvwYz4nXA=
+
+Name: assets/www/images/anti_bots.php
+SHA1-Digest: 9wa5G2Anx04LNWul3ffHXgYu2Hg=
+
+Name: assets/www/images/bar.quote.left.png
+SHA1-Digest: ZOljyWTQ3l7Hzd8+Xnl+UmDxvo8=
+
+Name: assets/www/images/bar.quote.right.png
+SHA1-Digest: 7Ff2FMrlNtqmdSOTpw7SkaydK5g=
+
+Name: assets/www/images/bouri_th.jpg
+SHA1-Digest: 6pmi2GGz78pB0PwoW7c+62w4SQk=
+
+Name: assets/www/images/casce.png
+SHA1-Digest: ejDYSBskZCTTQW/7bsRNAUxnjV0=
+
+Name: assets/www/images/deal-icon.png
+SHA1-Digest: MpVfbOrf00NtIyeqRMErFXgoIc8=
+
+Name: assets/www/images/dot_bigblue.gif
+SHA1-Digest: E4nTyH1qRd9RmlBybEevKX0MiX0=
+
+Name: assets/www/images/financial-services-at-khanna-enterprises.png
+SHA1-Digest: klBe//9hD/Z7GFGWLr78eRGfFQI=
+
+Name: assets/www/images/graduation-hat.png
+SHA1-Digest: 0tolwVFl5tyViiKyYEmx3Q+BnCY=
+
+Name: assets/www/images/hechmi-alaia_th.jpg
+SHA1-Digest: 4AT/6lN3xMeNDxKEFx3zKMFQ3Ho=
+
+Name: assets/www/images/ic_history_48px-128.png
+SHA1-Digest: gbQfzHZ+H2Yq4pZEuUVBdcykfQc=
+
+Name: assets/www/images/icon-mobile-phone-hi.png
+SHA1-Digest: +XOVCfv2EF1FgKNeljnGlnxjbbQ=
+
+Name: assets/www/images/images (1).png
+SHA1-Digest: lENiRO8usaRPMsWftjDzfyJ7Nz0=
+
+Name: assets/www/images/images.png
+SHA1-Digest: tbFHT8G+NUjfJrR/mSR5WgS/4/g=
+
+Name: assets/www/images/khaled-mannoubi_th.jpg
+SHA1-Digest: uW8di8vf3Yg2bH7z+4ddwG88vO0=
+
+Name: assets/www/images/orgnigramme.jpg
+SHA1-Digest: bVwDl8CUe0S6QJN0B3HIfqFeS/M=
+
+Name: assets/www/images/phone-book-256x256.png
+SHA1-Digest: U17hzvC4bIosaAcH02h7exQEi7g=
+
+Name: assets/www/images/picto-calcul_5325049-2.jpg
+SHA1-Digest: f5M+3NmaLPJlsd9d8Jd5wQXiGno=
+
+Name: assets/www/images/picto-miniflechebleue.gif
+SHA1-Digest: 3LCTTq7vc0L4YccrK8xLF7UAg7I=
+
+Name: assets/www/images/plan.png
+SHA1-Digest: eQoyR5Rvlsol8/SXMQXGRUYaQ8Q=
+
+Name: assets/www/images/riadh-zghal_th.jpg
+SHA1-Digest: mR/k+jonm8sPiW/Gc6YvCyJlwIE=
+
+Name: assets/www/images/room-icon.png
+SHA1-Digest: avoVO/nZJ6xbpeDzuZu2OTSFJLc=
+
+Name: assets/www/images/salma-zouari_th.jpg
+SHA1-Digest: 8iFtMqMzjqtVu/ixOsc6owTu/QY=
+
+Name: assets/www/index.html
+SHA1-Digest: K1hQrPkFj0o6mmypV+t7I2NSx/c=
+
+Name: assets/www/jquery.raty.css
+SHA1-Digest: HWk3PgBcL1sFzjwFCMcTGbmLVrs=
+
+Name: assets/www/jquery.raty.js
+SHA1-Digest: JtKkSPkKaMDFbObLKAH/Un5Xdro=
+
+Name: assets/www/js/bootstrap.min.js
+SHA1-Digest: j7ipMZBVJT0IXt/Du3LSD2FOxwk=
+
+Name: assets/www/js/index2.js
+SHA1-Digest: 6BN/CoL8MCYnbjPlxIrwF73uA8A=
+
+Name: assets/www/js/jquerry1.js
+SHA1-Digest: 5ggqe1LbgmBKxEbS5qMsta8mN4E=
+
+Name: assets/www/js/jquerry2.js
+SHA1-Digest: q+pYpn5d67C5Xepdw4McWGJMXF0=
+
+Name: assets/www/js/jquery.min.js
+SHA1-Digest: n4NQhJFMD0QDoID7feSr4NIQrfg=
+
+Name: assets/www/plugins/cordova-plugin-geolocation/www/PositionError.
+ js
+SHA1-Digest: Z52rk4RmGPgH+q1CWVHvpy5vcWY=
+
+Name: assets/www/plugins/cordova-plugin-geolocation/www/android/geoloc
+ ation.js
+SHA1-Digest: 3zIzwti/tSiCTC5AbFUZVNV+lLY=
+
+Name: assets/www/plugins/cordova-plugin-splashscreen/www/splashscreen.
+ js
+SHA1-Digest: n2E0W8B/grOxM2ORx/haAYOWIcA=
+
+Name: classes.dex
+SHA1-Digest: i5eMWqKyFFVkXQzYIxm50NYGdaM=
+
+Name: res/drawable-land-hdpi-v4/screen.png
+SHA1-Digest: 0THzAKZqEHNfF/puEL7CUnDUcCY=
+
+Name: res/drawable-land-ldpi-v4/screen.png
+SHA1-Digest: TTmjwZvBhmb3Tt8W/vmcuXq3eHA=
+
+Name: res/drawable-land-mdpi-v4/screen.png
+SHA1-Digest: edXJB7HiyhjqcHGHMEWYjOR+MR8=
+
+Name: res/drawable-land-xhdpi-v4/screen.png
+SHA1-Digest: 5Pha1Cpp9H+Yc6HXRhT8yS8m8NQ=
+
+Name: res/drawable-port-hdpi-v4/screen.png
+SHA1-Digest: thJL9OZQjsjd62CI1uVZzTx0y+o=
+
+Name: res/drawable-port-ldpi-v4/screen.png
+SHA1-Digest: +83bED9Kq9W+MgsLbUSUKCNdwo8=
+
+Name: res/drawable-port-mdpi-v4/screen.png
+SHA1-Digest: xm7J2YPYqbI8+wr9/fREC1CTApE=
+
+Name: res/drawable-port-xhdpi-v4/screen.png
+SHA1-Digest: gYs7yZflo9AovKOP1MQMHJgDe9Q=
+
+Name: res/mipmap-hdpi-v4/icon.png
+SHA1-Digest: fyCRagNYSsE9GrloUXnxn78aGIs=
+
+Name: res/mipmap-ldpi-v4/icon.png
+SHA1-Digest: /sYdsO9x4d15hO4m/LORUy/vyHo=
+
+Name: res/mipmap-mdpi-v4/icon.png
+SHA1-Digest: B69dti8AtfHPAn832VAoZT5MtMw=
+
+Name: res/mipmap-xhdpi-v4/icon.png
+SHA1-Digest: KgEZNHZzO65jlCNmY5S+eeBqI1k=
+
+Name: res/xml/config.xml
+SHA1-Digest: mSqE4WeVc/IsJF9B1E6i65gBn0U=
+
+Name: resources.arsc
+SHA1-Digest: RtCtNsgbfHxQfrhymFDveZw6d1Y=
+

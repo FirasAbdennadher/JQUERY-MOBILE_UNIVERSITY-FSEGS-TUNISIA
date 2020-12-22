@@ -1,0 +1,911 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquerry1.js"></script>
+    <script src="js/jquerry2.js"></script>
+	<!-- boostrap  -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- ssss -->
+  <!-- ssss -->
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!-- FontAwesome Library -->
+    <script src="https://use.fontawesome.com/4b02fbb9e9.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Federant" rel="stylesheet">  	
+    
+    <link href="jquery.raty.css" rel="stylesheet">
+    <script src="jquery.raty.js"></script>
+<style>
+  .container {
+      padding: 80px 120px;
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  </style>
+
+    <style>
+	     
+        #page1 header a{
+            margin-top: 5pt!important;
+
+        }
+		#page2 header a{
+            margin-top: 5pt!important;
+            background-color: #2778c9!important;
+        }
+		#page3 header a{
+            margin-top: 5pt!important;
+            background-color: #2778c9!important;
+        }
+		#page4 header a{
+            margin-top: 5pt!important;
+            background-color: #2778c9!important;
+        }
+		#page5 header a{
+            margin-top: 5pt!important;
+            background-color: #2778c9!important;
+        }
+		#page6 header a{
+            margin-top: 5pt!important;
+            background-color: #2778c9!important;
+        }
+		#page7 header a{
+            margin-top: 5pt!important;
+            background-color: #2778c9!important;
+        }
+		#page8 header a{
+            margin-top: 5pt!important;
+            background-color: #2778c9!important;
+        }
+		#page9 header a{
+            margin-top: 5pt!important;
+            background-color: #2778c9!important;
+        }
+		#page10 header a{
+            margin-top: 5pt!important;
+            background-color: #2778c9!important;
+        }
+		#page11 header a{
+            margin-top: 5pt!important;
+            background-color: #2778c9!important;
+        }
+		
+		#page12 header a{
+            margin-top: 5pt!important;
+            background-color: #2778c9!important;
+        }
+		#page13 header a{
+            margin-top: 5pt!important;
+            background-color: #2778c9!important;
+        }
+       
+        header{
+            background-color: #2778c9!important;
+            color: white!important;
+            font-family: 'Signika', 'sans-serif';
+            font-size: 16pt;
+            letter-spacing: 0.4pt;
+        }
+
+        section ul{
+            margin-top: 7pt!important;
+        }
+        section ul li:nth-child(even) a{
+            background-color: white !important;
+        }
+
+
+
+
+
+        section ul li a span{
+            font-family: 'Federant', cursive;
+            font-size: 13pt;
+            display: inline-block !important;
+        }
+
+        #question{
+            font-family: 'Dancing Script', 'cursive';
+            font-size: 16pt;
+        }
+
+
+
+
+    </style>
+</head>
+    <style>
+      #map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+    </style>
+<body>
+
+    <!-- PAGE (1) -->
+    <div data-role="page" id="page1">
+        <header data-role="header">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images\51354728074_11_21_14.png" alt="Fsegs" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>LA FACULTÉ</h3>
+          
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="images\01354891042_08_37_22.png" alt="block" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>ESPACE ENTREPRISE</h3>
+          
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="images\21354728181_11_23_01.png" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>ESPACE ENSEIGNANTS</h3>
+
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<nav data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#page10" data-transition="fade">
+                            <i class="fa fa-address-book fa-lg"></i>
+                            <br>Contacts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#page9" data-transition="fade">
+                            <i class="fa fa-map-marker fa-lg"></i>
+                            <br>Emplacement
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#page12" data-transition="fade">
+
+  <i class="fa fa-twitter fa-stack-1x"></i>
+                            <br>Météo locale
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section data-role="main" class="ui-content">
+            <div>
+                <img src="images\graduation-hat.png" width="15px" height="20px" style="vertical-align:middle">&nbsp;
+                <span id="question">Faculté</span>
+            </div>
+            <ul data-role="listview" data-filter="true" data-filter-placeholder="Search" data-inset="true">
+                <li><a href="#page2" data-transition="fade"><img src="images/14838-200.png" alt="France" class="ui-li-icon ui-corner-none"><span>Présentation</span></a></li>
+				<li><a href="#page13" data-transition="fade"><img src="images/phone-book-256x256.png" alt="France" class="ui-li-icon ui-corner-none"><span>Annuaire</span></a></li>
+                <li><a href="#page3" data-transition="fade"><img src="images/Flowchart_5733.png" alt="France" class="ui-li-icon ui-corner-none"><span>Organigramme</span></a></li>
+                <li><a href="#page4" data-transition="fade"><img src="images/ic_history_48px-128.png" alt="France" class="ui-li-icon ui-corner-none"><span>Historique</span></a></li>
+                <li><a href="#page5" data-transition="fade"><img src="images/Simpleicons_Business_ascendant-bars-graphic.svg.png" alt="France" class="ui-li-icon ui-corner-none"><span>En chiffres</span></a></li>
+                <li><a href="#page6" data-transition="fade"><img src="images/images.png" alt="France" class="ui-li-icon ui-corner-none"><span>Service scolarité</span></a></li>
+                <li><a href="#page7" data-transition="fade"><img src="images/financial-services-at-khanna-enterprises.png" alt="France" class="ui-li-icon ui-corner-none"><span>Centre de calcul</span></a></li>
+                <li><a href="#page8" data-transition="fade"><img src="images/room-icon.png" alt="France" class="ui-li-icon ui-corner-none"><span>Plan de faculté</span></a></li>
+				
+				<li><a href="#page11" data-transition="fade"><img src="images/about-us-male (1).png" alt="France" class="ui-li-icon ui-corner-none"><span>A propos</span></a></li>
+				
+				
+            </ul>
+        </section>
+        <footer data-role="footer">
+
+        </footer>
+    </div>
+
+    <!-- PAGE (2) -->
+    <div data-role="page" id="page2">
+            <header data-role="header" data-position="fixed">
+                <a data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all ui-nodisc-icon"></a>
+                <h1>Présentation</h1>
+            </header>
+            <section data-role="main" class="ui-content">
+                
+				<p>Située dans l’agglomération de Sfax, deuxième pôle urbain tunisien avec son demi million d’habitants, la<span style="color: rgb(51, 51, 51);"><span style="font-family: Tahoma;"><strong> faculté des sciences économiques et de gestion</strong></span></span> est rattachée à l’Université de Sfax (42000 étudiants et 20 Institutions). Elle accueille cette année universitaire (2011-2012)  3808 étudiants inscrits aux trois cycles d'études universitaires auxquels s'ajoute un cycle de formation continue ciblée:
+				<strong><br><img width="10" height="10" alt="" src="images/dot_bigblue.gif"> LMD :</strong> 2295<br></p>
+				<strong><strong><strong><br><img width="10" height="10" alt="" src="images/dot_bigblue.gif">&nbsp;</strong> </strong>Troisième Cycle :</strong> 1513 (662 Doctorants – 57 Révision comptable – 794 Masters)
+                <strong><strong><strong><br><img width="10" height="10" alt="" src="images/dot_bigblue.gif">&nbsp;</strong></strong>Formation continue :</strong> 200
+				&nbsp;
+				Nos étudiants bénéficient d’une formation complète, d’un parcours d’étude varié et d’un socle de connaissances élaboré de plus en plus adapté aux besoins du marché du travail. La mission d’enseignement est assurée par une équipe d’enseignants (199) dynamiques et motivés appartenant à cinq départements (Economie, Gestion, Informatique, Méthodes Quantitatives, Comptabilité) auxquels s’ajoutent un laboratoire de langues. Ces départements orientent leur priorité sur les défis posés aux jeunes étudiants et étudiants doctorants (insertion professionnelle, prise de contact avec la réalité des problèmes, accompagnement dans l’enseignement,…). La FSEG s’est engagée dans la réforme LMD (Licence –Master – Doctorat) avec des enseignements variés conçus dans la plus grande harmonie, aux débouchés professionnels diversifiés.<br>
+                <br>
+                La faculté, milieu d'enseignement mais aussi de recherche, abrite 12 unités animées par un potentiel d'enseignants-chercheurs et enseignants œuvrant dans la promotion de la recherche théorique et appliquée aussi bien individuelle que collective couvrant un vaste champ de la connaissance scientifique et développant de multiples échanges en partenariat avec d’autres universités nationales et extranationales.<br>
+                <br>
+                La Faculté des Sciences Economiques et de gestion dispose de multiples atouts pour assurer les missions qui lui sont dévolues et affirmer son positionnement national et supra-national :<br>
+                <br>
+                <strong><img width="13" height="13" alt="" src="./FSEG Sfax - Présentation_files/deal-icon.png"> </strong>Un espace d’accueil doté de moyens logistiques utile et nécessaire (15 amphithéâtres équipés et 58 salles pour TD - TP) permettant la mise en œuvre de méthodes d’enseignement et de communication modernes,<br>
+                <strong><strong><img width="13" height="13" alt="" src="images/deal-icon.png"></strong></strong> Des pavillons fonctionnels dans lesquels logent une bibliothèque (riche en ressources documentaires informatisées aisément accessibles et rattachée aux réseaux inter et intranet),<br>
+                <strong><strong><img width="13" height="13" alt="" src="images/deal-icon.png">&nbsp;</strong></strong>Un centre de calcul équipé d’instruments informatiques et de salles informatiques,…<br>
+                <strong><strong><img width="13" height="13" alt="" src="images/deal-icon.png">&nbsp;</strong></strong>Une grande salle d'enseignants aménagée en tant que lieu d'échanges et de convivialité.<br>
+                <strong><strong><img width="13" height="13" alt="" src="images/deal-icon.png">&nbsp;</strong></strong>Un local pour les activités sportive et récréative, contribuant à l’épanouissement des étudiants, <br>
+                <strong><strong><img width="13" height="13" alt="" src="images/deal-icon.png">&nbsp;</strong></strong>Un bloc affecté aux enseignants chercheurs et aux affaires départementales connecté au réseau intra et internet contribuant à un approfondissement et à une spécialisation de leurs connaissances et à une intégration dans de nombreux réseaux universitaires,…<br>
+                <br>
+                Nous espérons que vous trouverez dans ce site toutes les informations que vous recherchez.</p>
+
+
+
+            </section>
+            <footer data-role="footer">
+    
+            </footer>
+        </div>
+		
+		    <!-- PAGE (3) -->
+    <div data-role="page" id="page3">
+            <header data-role="header" data-position="fixed">
+                <a data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all ui-nodisc-icon"></a>
+                <h1>Ogranigramme</h1>
+            </header>
+            <section data-role="main" class="ui-content">
+              <p>
+<img width="25" height="25" src="images/bar.quote.left.png" alt=""> <span style="color: rgb(0, 0, 0);"><span style="font-family: Tahoma;"><strong>Une organisation au service de tous</strong></span></span><span style="font-family: Tahoma;"><strong>&nbsp;</strong></span> <img width="25" height="25" src="images/bar.quote.right.png" alt="">
+
+
+<br><br><br>
+<span style="color: rgb(0, 51, 102);"><span style="font-family: Tahoma;"><strong>La Faculté des Sciences Economiques et de Gestion de Sfax</strong></span></span> est dirigée par un Doyen élu par le Conseil Scientifique qui, de par sa compétence et son rôle, cherche à favoriser la synergie entre Enseignants, Personnel et Etudiants, orientant par là ses priorités sur les défis posés : rayonnement scientifique de l’institution, préparation des étudiants à la vie active, ouverture sur l’environnement socio-économique, réussite de la mise en application de la réforme LMD,…<br>
+<br>
+Le Doyen, dont le mandat est de 3 ans, renouvelable une fois, préside le Conseil Scientifique qui traite les questions liées aux affaires pédagogiques, administratives, financières…, de l’institution. Il est assisté par un Vice Doyen et un Secrétaire Général qui, outre ses prérogatives administratives courantes, s’occupe du suivi des délibérations du  Conseil Scientifique.<br>
+<br>
+Il s’agit en fait, d’une organisation fonctionnelle loin d’être pyramidale privilégiant un processus de prise de décisions partagées basé sur la consultation et la concertation.<br>
+<br>
+<div data-role="popup" id="popupPhotoLandscape" class="photopopup" data-overlay-theme="a" data-corners="false" data-tolerance="30,15">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="images/orgnigramme.jpg" alt="Photo landscape">
+</div>
+</p>
+
+ <div class="text-center">
+<a href="#popupPhotoLandscape" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline"><img src="images/orgnigramme.jpg" width="150" height="130"></a>
+</div>
+
+<script>
+$( document ).on( "pagecreate", function() {
+    $( ".photopopup" ).on({
+        popupbeforeposition: function() {
+            var maxHeight = $( window ).height() - 60 + "px";
+            $( ".photopopup img" ).css( "max-height", maxHeight );
+        }
+    });
+});
+
+</script>
+
+
+
+            </section>
+            <footer data-role="footer">
+    
+            </footer>
+        </div>
+		
+
+		    <!-- PAGE (4) -->
+    <div data-role="page" id="page4">
+            <header data-role="header" data-position="fixed">
+                <a data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all ui-nodisc-icon"></a>
+                <h1>Historique</h1>
+            </header>
+            <section data-role="main" class="ui-content">
+<p>
+Le décret du <strong><span style="color: rgb(51, 51, 51);"><span style="font-family: Tahoma;">14 novembre 1975</span></span></strong> annonce la création de la Faculté dénommée <span style="color: rgb(51, 51, 51);"><span style="font-family: Tahoma;"><strong>"Faculté des Sciences Techniques Economiques de Sfax"</strong></span></span> substituant l’initiale dénomination "Centre de Formation des Assistants en Gestion". La naissance de cette jeune institution s’inscrivait dans le cadre de la politique de décentralisation de l’Université Tunisienne qui fête cette année son cinquantième anniversaire(1958 – 2008). Elle était initialement logée, pour une période transitoire,dans les locaux du Lycée Habib Mazoun au cœur de la ville où elle se développera jusqu’à son transfert progressif sur son site actuel en fin des années 70 et début des années 80.<br>
+<br>
+Dès lors, elle est connue sous sa dénomination actuelle<span style="color: rgb(51, 51, 51);"><span style="font-family: Tahoma;"><strong> "Faculté des Sciences Economiques et de Gestion de Sfax"</strong></span></span> dispensant des enseignements axés sur l’économie et la gestion couplés à des disciplines connexes classiques- habituelles. Cet enseignement, pour être à la hauteur des défis et des ambitions, allait se diversifier par une multiplicité de riches parcours et de formations diplômantes soutenus par une équipe d’enseignants dynamique et motivée œuvrant  à la fois et en même temps dans l’enseignement et la recherche. La promotion de ces activités académiques, se déclinant sur la réflexion et l’action, a exigé la mobilisation de moyens adéquats en vue d’atteindre ses nobles objectifs. Le développement de la recherche, tant individuelle que collective,  s’effectue dans le cadre d’équipes, de laboratoires et d’unités de recherches dont le rayonnement a franchi les limites régionales.<br>
+<br>
+Pour marquer une nouvelle orientation, la stratégie adoptée témoigne de la volonté de l’ouverture de la faculté sur son environnement immédiat, limitrophe et lointain et de l’adaptation aux exigences, sinon aux impératifs, d’un monde en perpétuelle évolution aussi variée que multiple. Cela a permis à la faculté de tisser des liens féconds avec de multiples institutions universitaires et professionnelles nationales et extranationales.<br>
+</p>
+<table align="center" class="table table-striped">
+    <tbody>
+        <tr>
+            <td align="center"><img width="75" height="92" src="images/hechmi-alaia_th.jpg" alt=""></td>
+            <td align="center">Hechmi Alaya </td>
+            <td align="center">1975 - 1977</td>
+        </tr>
+        <tr>
+            <td align="center"><img width="75" height="92" src="images/abdellatif-khemakhem_th.jpg" alt=""></td>
+            <td align="center">Abdellatif Khemakhem</td>
+            <td align="center">1977- 1980 1981 - 1987</td>
+        </tr>
+        <tr>
+            <td align="center"><img width="75" height="92" src="images/khaled-mannoubi_th.jpg" alt=""></td>
+            <td align="center">Khaled Mannoubi</td>
+            <td align="center">1980 -1981</td>
+        </tr>
+        <tr>
+            <td align="center"><img width="75" height="92" src="images/abdelfatteh-ghorbel_th.jpg" alt=""></td>
+            <td align="center">Abdelfatteh Ghorbel</td>
+            <td align="center">1987 -1990 1996 – 1999 1999 - 2002</td>
+        </tr>
+        <tr>
+            <td align="center"><img width="75" height="92" src="images/salma-zouari_th.jpg" alt=""></td>
+            <td align="center">Salma Zouari</td>
+            <td align="center">1990 - 1993</td>
+        </tr>
+        <tr>
+            <td align="center"><img src="images/riadh-zghal_th.jpg" alt=""></td>
+            <td align="center">Riadh Zghal</td>
+            <td align="center">1993 -1996</td>
+        </tr>
+        <tr>
+            <td align="center"><img width="75" height="92" src="images/ali-chkir_th.jpg" alt=""></td>
+            <td align="center">Ali Chkir</td>
+            <td align="center">2002 - 2005</td>
+        </tr>
+        <tr>
+            <td align="center"><img src="images/bouri_th.jpg" alt=""></td>
+            <td align="center">Abdelfatteh Bouri</td>
+            <td align="center">2005 - 2008&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="center">&nbsp;</td>
+            <td align="center">Borhen Trigui</td>
+            <td align="center">2008 - 2011</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+
+            </section>
+            <footer data-role="footer">
+    
+            </footer>
+        </div>
+
+				    <!-- PAGE (5) -->
+    <div data-role="page" id="page5">
+            <header data-role="header" data-position="fixed">
+                <a data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all ui-nodisc-icon"></a>
+                <h1>En chiffres</h1>
+            </header>
+            <section data-role="main" class="ui-content">
+
+            <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel1" data-slide-to="1"></li>
+      <li data-target="#myCarousel1" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images\1.png" alt="Fsegs" width="1200" height="700">
+    
+      </div>
+
+      <div class="item">
+        <img src="images\2.png" alt="block" width="1200" height="700">
+        
+     
+      </div>
+    
+      <div class="item">
+        <img src="images\3.png" alt="Los Angeles" width="1200" height="700">
+     
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+      
+
+
+
+
+
+
+
+            </section>
+            <footer data-role="footer">
+    
+            </footer>
+        </div>
+		
+				    <!-- PAGE (6) -->
+    <div data-role="page" id="page6">
+            <header data-role="header" data-position="fixed">
+                <a data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all ui-nodisc-icon"></a>
+                <h5>Service scolarité</h5>
+            </header>
+            <section data-role="main" class="ui-content">
+<p><br>
+La direction des affaires estudiantines a pour mission d'instruire et de gérer toutes les questions relatives à la vie estudiantine au sein de l'établissement.<br>
+<br>
+A cet effet, elle est chargée d'assurer les tâches suivantes :</p>
+<p><img width="5" height="5" alt="" src="images/picto-miniflechebleue.gif"> Accueil et inscription des étudiants.<br>
+<img width="5" height="5" alt="" src="images/picto-miniflechebleue.gif"> Elaboration des emplois du temps et suivi des enseignements.<br>
+<img width="5" height="5" alt="" src="images/picto-miniflechebleue.gif"> Organisation des examens.<br>
+<img width="5" height="5" alt="" src="images/picto-miniflechebleue.gif"> Préparation pour les délibérations des jurys des examens de fin d'année.</p>
+
+
+
+
+
+
+
+
+            </section>
+            <footer data-role="footer">
+    
+            </footer>
+        </div>
+  				    <!-- PAGE (7) -->
+    <div data-role="page" id="page7">
+            <header data-role="header" data-position="fixed">
+                <a data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all ui-nodisc-icon"></a>
+                <h1>Centre de calcul</h1>
+            </header>
+            <section data-role="main" class="ui-content">
+
+<div class="content">
+<p><span style="font-family: Verdana;"><strong>Mission principale</strong></span><br>
+<br>
+La faculté dispose d’un Centre Informatique dont la mission principale est de fournir des prestations de qualité à ses étudiants, chercheurs, enseignants et personnel administratif. Ce centre met à leur disposition les outils nécessaires au bon déroulement des enseignements et de la recherche scientifique. .<br>
+<br>
+<span style="font-family: Verdana;"><strong>Le centre de calcul est appelé à :</strong></span><br>
+<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> installer, maintenir et administrer le réseau informatique, les différents serveurs et les bases de données ;<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> assurer la sauvegarde des outils et des données informatiques de la faculté ;<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> être à l’écoute des innovations en matière des TIC, définir en conséquence les stratégies et planifier le développement de l’infrastructure informatique au sein de la faculté ;<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> fournir aux étudiants un accès aisé, continu et sécurisé : matériel, logiciel, réseaux, Intranet et Internet ;<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> assister les étudiants, les enseignants et le personnel administratif dans l’utilisation de la technologie de l’information.<br>
+<br>
+<span style="font-family: Verdana;"><strong><br>
+Equipements et réseaux à la hauteur des défis<br>
+</strong></span><br>
+La faculté dispose d’un parc informatique important, utilisé par les étudiants, enseignants, chercheurs et personnel administratif. Ce parc est constitué de plus de 500 ordinateurs, d’un ensemble d’imprimantes, d’une quinzaine de serveurs et d’équipements de projection multimédia. Un réseau en fibre optique relie le centre de calcul aux bâtiments de la FSEG pour assurer les communications avec un débit élevé.<br>
+<br>
+Ces machines, réparties sur dix sept salles de travaux pratiques, douze unités de recherche et cinq services administratifs, sont reliées entre elles par un réseau fédérateur sécurisé moyennant des équipements de pointe (serveurs, switchs, pare-feu, …) et sont dotées de systèmes d’exploitation et logiciels performants répondant aux attentes des différents usagers.<br>
+<br>
+<span style="font-family: Verdana;"><strong>Système de gestion automatisée performant</strong></span><br>
+<br>
+La faculté a mis au point un système automatisé pour une gestion  efficace des affaires estudiantine sécurisée. Ce système permet d’assurer un suivi optimal des étudiants pendant toute la durée de leurs études au sein de la faculté, dont notamment l’inscription, l’affectation des cours, les emplois du temps, le suivi des absences, la gestion des notes et l’évaluation des résultats des étudiants.<br>
+<br>
+<span style="font-family: Verdana;"><strong>Réseau Internet pour "Tous"</strong></span><br>
+<br>
+La faculté permet aux étudiants, aux enseignants et à l’ensemble du personnel l’accès à l’Internet pour la recherche documentaire et l’intégration des nouvelles technologies dans les diverses activités. A cet effet, la faculté déploie de grands efforts pour être à la pointe de l’avancée technologique et satisfaire ainsi ses utilisateurs.<br>
+<br>
+<span style="font-family: Verdana;"><strong>Connexion Internet rapide et sécurisée</strong></span><br>
+<br>
+La faculté dispose d’une liaison ADSL (6 Mbits/s) pour permettre à chacun de bénéficier à sa convenance des différents services tels que la navigation sur Internet, la messagerie électronique, ou encore le transfert de fichiers sur Internet. Par ailleurs, d’autres services peuvent être offerts à la demande des internautes.<br>
+<br>
+<span style="font-family: Verdana;"><strong>Services Intranet<br>
+</strong></span><br>
+La faculté dispose d’un site Web Intranet accessible aux étudiants, aux enseignants et au personnel administratif de l’Institution. Ce site permet aux étudiants de :<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> s’informer sur tous les sujets les concernant (l’organisation des enseignements, les emplois du temps,...) ;<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> accéder aux sites Web académiques, classés par thème et par spécialité ;<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> s’informer sur les procédures et les règlements internes et externes de la faculté ;<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> consulter une description détaillée des programmes de formation ;<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> accéder à une collection de sites Web pratiques : finance, économie, gestion, informatique et autres thèmes.<br>
+<br>
+<br>
+<span style="font-family: Verdana;"><strong>Connexion Internet</strong></span><br>
+<br>
+La connexion Internet est disponible en continue  dans les unités de recherche, en plus de deux salles dédiées à la recherche scientifique, réservées exclusivement aux étudiants de troisième cycle. Elle est aussi disponible dans les salles des travaux pratiques, du lundi au samedi, de 8h à 18h30 et selon les emplois du temps.<br>
+Pour bénéficier d’une connexion sécurisée à l’Internet et à l’Intranet, tout utilisateur doit avoir un compte d’accès valide fourni par l’administrateur du système.<br>
+<br>
+Personnel administratif assurant en continu entretien et suivi.<br>
+<br>
+Aboubaker TURKI, Ingénieur en chef et responsable du Centre de Calcul 
+<br>
+Ses domaines d’activités concernent :
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> la coordination de l’équipe du Centre de Calcul,<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> la gestion et administration du réseau de la faculté (switch, firewall, point d'accès,...) ,<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> la gestion et maintenance des serveurs (Windows et Linux),<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> l’achat des machines et des logiciels.<br>
+<br>
+Mohamed LOUKIL, Technicien supérieur :<br>
+Ses domaines d’activités concernent :<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> l’installation et la maintenance des systèmes Windows,<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> la maintenance Hardware du parc informatique.<br>
+<br>
+<br>
+Samir MSAED, secrétaire d’administration :<br>
+Il est chargé :<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> du secrétariat du centre de calcul,<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> du suivi du câblage du réseau informatique,<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> de la maintenance Hardware du parc informatique (écrans, imprimantes, ...).<br>
+<br>
+<br>
+Abdelkader SAADAOUI, secrétaire d’administration :<br>
+Il est chargé :<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> du secrétariat du centre de calcul,<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> de la planification des emplois du temps des salles des travaux pratiques,<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> de l’chat des fournitures du matériel informatiques (flash, disque, cdrom,…) .<br>
+<br>
+<br>
+Housine ZOUAGHUI et Ali BEN SALEM sont deux ouvriers chargés :<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> d’aider le technicien à faire l’installation des systèmes,<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> de planifier la réservation aux étudiants dans les salles des travaux pratiques,<br>
+<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> d’assurer les surveillances des salles des travaux pratiques.</p>
+</div>
+
+
+
+
+
+
+            </section>
+            <footer data-role="footer">
+    
+            </footer>
+        </div>  
+
+				    <!-- PAGE (8) -->
+    <div data-role="page" id="page8">
+            <header data-role="header" data-position="fixed">
+                <a data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all ui-nodisc-icon"></a>
+                <h1>Plan de la faculté</h1>
+            </header>
+            <section data-role="main" class="ui-content">
+			<div class="content"><div style="text-align: center;"><img  src="images/plan.png" alt="" width="300" height="600"></div></div>
+
+
+
+
+
+
+
+
+
+            </section>
+            <footer data-role="footer">
+    
+            </footer>
+        </div>	
+
+				    <!-- PAGE (9) -->
+    <div data-role="page" id="page9">
+            <header data-role="header" data-position="fixed">
+                <a data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all ui-nodisc-icon"></a>
+                <h1>map</h1>
+            </header>
+			
+            <section data-role="main" class="ui-content">
+   <div id="map">
+   
+   </div>
+   <input type="submit" class="btn btn-primary" value="Actualiser le map " onclick="javascript:location.reload();">
+
+		<input type="submit" class="btn btn-primary" value="naviger vers FSEGS" onclick="
+		  navigator.geolocation.getCurrentPosition(onPositionFound);
+		  var latitude
+		  var longitude
+		  location.reload();
+		  function onPositionFound(position)
+         {
+		latitude = position.coords.latitude;
+		//document.getElementById('info').innerHTML += 'le latitude est :'+latitude+'<br>';
+        longitude = position.coords.longitude;
+		//document.getElementById('info').innerHTML += 'le longitude est :'+longitude+'<br>';
+		
+		document.location.href='http://maps.google.com/maps?saddr='+latitude+','+longitude+'&daddr=FSEGS,+P14,+Sfax';
+
+		};
+		if(latitude == null)
+		{
+		alert('cette action utilise votre localisation');
+		}
+	   ">
+<div id="info">
+
+</div>
+            </section>
+            <footer data-role="footer">
+    
+            </footer>
+        </div>
+
+				    <!-- PAGE (10) -->
+      <div data-role="page" id="page10">
+            <header data-role="header" data-position="fixed">
+                <a data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all ui-nodisc-icon"></a>
+                <h1>Contact</h1>
+            </header>
+            <section data-role="main" class="ui-content">
+            <strong>Adresse</strong>: Route de l’Aéroport Km 4 Sfax 3018 Tunisie <br><br>
+<strong>Tél</strong>: (216) 74 278 777  <a href="tel:74 278 777"><img width="20" height="20" alt="" src="images/Icons8-Windows-8-Mobile-Phone.ico">  </a> <br><br>
+<strong>Fax</strong>: (216) 74 279139  <a href="tel:74 279 139"><img width="20" height="20" alt="" src="images/Icons8-Windows-8-Mobile-Phone.ico">  </a><br><br>
+<strong>Email</strong> : <a href="http://www.fsegs.rnu.tn/mailtocontact@fsegs.rnu.tn">contact@fsegs.rnu.tn</a><br>
+<br>
+<script>
+function verif()
+{
+if(contact.anti_bots.value != "yv96ga0")
+{
+alert("le code est invalide");
+contact.anti_bots.value="";
+return false;
+}
+}
+</script>
+<form id="contact" name="contact" method="post" action="http://www.fsegs.rnu.tn/"  onSubmit="return verif()">
+
+Nom &amp; Prénom <sup>*</sup><br><input type="text" name="fullname" id="fullname" class="iname" required="required"><br>
+Email <sup>*</sup><br><input type="email" name="email" id="email" class="iemail" required="required"><br>
+Pays<br><input type="text" name="pays" id="pays" class="iname" required="required"><br>
+Téléphone <sup>*</sup><br><input type="number" name="tel" id="tel" class="itel" required="required"><br>
+Destinataire <sup>*</sup><br>
+
+
+<select name="email_dest_id" id="destl" class="destl"><br>
+<option value="2">Administration </option>
+  <option value="3">Département sciences économiques </option>
+  <option value="4">Département sciences de gestion </option>
+  <option value="5">Département Informatique de gestion </option>
+  <option value="6">Département comptabilité </option>
+  <option value="7">Département méthodes quantitatives </option>
+  <option value="8">webmaster </option>
+         </select>
+Sujet<br><input type="text" name="subject" id="subject" required="required"><br>
+Message<br><textarea name="message" id="message" class="imessage" rows="6" required="required"></textarea><br>
+<img src="images/anti_bots.php" style="border:1px solid black;padding:10px 0px 5px 10px"><br>
+<span>Retapez le code </span><input type="text" name="anti_bots" id="anti_bots" required="required"><br>
+<input type="submit" name="Submit" value="Envoyer" class="btn"><br>
+</form>
+
+
+
+
+
+
+
+
+            </section>
+            <footer data-role="footer">
+    
+            </footer>
+        </div>
+
+						    <!-- PAGE (11) -->
+    <div data-role="page" id="page11">
+            <header data-role="header" data-position="fixed">
+                <a data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all ui-nodisc-icon"></a>
+                <h1>A propos</h1>
+            </header>
+            <section data-role="main" class="ui-content">
+		<p align="center"><strong>FSEGS pour Android</strong></p><br>
+		<strong>Cette application dispose des autorisations suivantes :</strong><br><br>
+		<p><strong>Données de localisation </strong>
+		<ul>
+		<img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> position approximative (réseau)<br>
+        <img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> position précise (GPS et réseau)<br>
+		</ul></p>
+		<br>
+
+		<p><strong>Espace de stockage</strong>
+		<ul>
+        <img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> Lire le contenu de la mémoire de stockage USB<br>
+        <img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> Modifier ou supprimer le contenu de la mémoire de stockage USB<br>
+		</ul></p>
+		<br>
+		
+		<p><strong>Informations relatives à la connexion Wi-Fi</strong>
+		<ul>
+         <img width="5" height="5" src="images/picto-miniflechebleue.gif" alt=""> afficher les connexions Wi-Fi<br>
+        </ul>
+		<br>
+		</p>
+		
+		
+         <p align="center"><strong>© 2018 HARIZ.Aymen</strong></p><br>
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+            </section>
+            <footer data-role="footer">
+    
+            </footer>
+        </div>
+		
+								    <!-- PAGE (12) -->
+    <div data-role="page" id="page12">
+            <header data-role="header" data-position="fixed">
+                <a data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all ui-nodisc-icon"></a>
+                <h1>Météo locale</h1>
+            </header>
+            <section data-role="main" class="ui-content">
+<!-- weather widget start -->
+<style>
+#page12 .ui-content {
+    border-width: 19px;
+    overflow: visible;
+    overflow-x: hid;
+    padding: 6em;
+}
+</style>
+
+<div id="cont_06a38893084c031bc14cba3d4db77df3"><script type="text/javascript" async src="https://www.tameteo.com/wid_loader/06a38893084c031bc14cba3d4db77df3"></script></div>
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+            </section>
+            <footer data-role="footer">
+    
+            </footer>
+        </div>
+
+										    <!-- PAGE (13) -->
+    <div data-role="page" id="page13">
+            <header data-role="header" data-position="fixed">
+                <a data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all ui-nodisc-icon"></a>
+                <h1>Annuaire</h1>
+            </header>
+            <section data-role="main" class="ui-content">
+<table class="table table-striped">
+
+    <tbody>
+      <tr>
+        <td>département d'information</td>
+        <td><a href="tel:74 278 777"><img width="20" height="20" alt="" src="images/Icons8-Windows-8-Mobile-Phone.ico">&nbsp;&nbsp;<a href="mailto:ahmed.hadjkacem@fsegs.rnu.tn"><img width="20" height="20" alt="" src="images/34400.png">  </a></td>
+      </tr>
+	  
+	  <tr>
+        <td>département de comptabilité</td>
+        <td><a href="tel:74 278 777"><img width="20" height="20" alt="" src="images/Icons8-Windows-8-Mobile-Phone.ico">&nbsp;&nbsp;<a href="mailto:contact@fsegs.rnu.tn"><img width="20" height="20" alt="" src="images/34400.png">  </a></td>
+      </tr>
+	  
+	  	  <tr>
+        <td>département de gestion</td>
+        <td><a href="tel:74 278 777"><img width="20" height="20" alt="" src="images/Icons8-Windows-8-Mobile-Phone.ico">&nbsp;&nbsp;<a href="mailto:contact@fsegs.rnu.tn"><img width="20" height="20" alt="" src="images/34400.png">  </a></td>
+      </tr>
+	  
+	  <tr>
+        <td>departement des methodes quantitatives</td>
+        <td><a href="tel:74 278 777"><img width="20" height="20" alt="" src="images/Icons8-Windows-8-Mobile-Phone.ico">&nbsp;&nbsp;<a href="mailto:contact@fsegs.rnu.tn"><img width="20" height="20" alt="" src="images/34400.png">  </a></td>
+      </tr>
+	  
+	  	  <tr>
+        <td>directeur des stages</td>
+        <td><a href="tel:74 278 777"><img width="20" height="20" alt="" src="images/Icons8-Windows-8-Mobile-Phone.ico">&nbsp;&nbsp;<a href="mailto:mahmoud.neji@fsegs.rnu.tn"><img width="20" height="20" alt="" src="images/34400.png">  </a></td>
+      </tr>
+	  
+	  	  	  <tr>
+        <td>Doyen</td>
+        <td><a href="tel:74 278 777"><img width="20" height="20" alt="" src="images/Icons8-Windows-8-Mobile-Phone.ico">&nbsp;&nbsp;<a href="mailto:contact@fsegs.rnu.tn"><img width="20" height="20" alt="" src="images/34400.png">  </a></td>
+      </tr>
+	  
+	  	  	  	  <tr>
+        <td>secrétaire général</td>
+        <td><a href="tel:74 278 777"><img width="20" height="20" alt="" src="images/Icons8-Windows-8-Mobile-Phone.ico">&nbsp;&nbsp;<a href="mailto:contact@fsegs.rnu.tn"><img width="20" height="20" alt="" src="images/34400.png">  </a></td>
+      </tr>
+	  
+       <tr>
+        <td>service centre de calcul</td>
+        <td><a href="tel:74 278 777"><img width="20" height="20" alt="" src="images/Icons8-Windows-8-Mobile-Phone.ico">&nbsp;&nbsp;<a href="mailto:aboubaker.turki@fsegs.rnu.tn"><img width="20" height="20" alt="" src="images/34400.png">  </a></td>
+      </tr>
+	  
+	  
+	  
+    </tbody>
+  </table>
+  
+
+
+
+
+	
+		
+		
+		
+
+
+
+
+
+
+
+
+
+            </section>
+            <footer data-role="footer">
+    
+            </footer>
+        </div>
+		
+
+		
+    <script>
+      function initMap() {
+        var uluru = { lat: 34.734167, lng: 10.710105 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>   
+
+
+		  
+       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDct4ox-_0kIEx7ck8n1n0sIBf3f5bChmw&callback=initMap"> </script>
+</body>
+
+</html>
